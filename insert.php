@@ -8,7 +8,7 @@ try {
       //       'mongodb://127.0.0.1:27017/test?retryWrites=true&w=majority'
       //    );
       $client = new MongoDB\Client(
-            'mongodb://nawaf:NAWAF#$%!LKM@221#$xd2marHx@123456@localhost:27017/admin'
+            'mongodb://nawaf:nawaf22108NAWAF22108xd2mar22108@localhost:27017/admin'
          );
       // echo $client;
       $collection = $client->powned->users518;
