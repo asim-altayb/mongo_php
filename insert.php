@@ -11,7 +11,7 @@ try {
             'mongodb://nawaf:NAWAF#$%!LKM@221#$xd2marHx@123456@127.0.0.1:27017/admin'
          );
       // echo $client;
-      $collection = $client->powned->test;
+      $collection = $client->powned->users518;
 
       $insertOneResult = $collection->insertOne($data);
 
