@@ -25,7 +25,7 @@ try {
    }
    
 } catch (\Throwable $th) {
-   echo json_encode(['status' => 500, 'error' => json_encode($th)]);
+   echo json_encode(['status' => 500, 'error' => json_encode($th->getMessage()),'trace' => $th->getTraceAsString(),'t'=>$th->getTrace()]);
 }
 
 
